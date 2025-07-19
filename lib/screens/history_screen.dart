@@ -96,7 +96,7 @@ class _HistoryScreenState extends State<HistoryScreen> {
         actions: [
           if (_records.isNotEmpty)
             IconButton(
-              icon: const Icon(Icons.delete_sweep),
+              icon: const Icon(Icons.delete),
               onPressed: _clearAllRecords,
               tooltip: 'Clear All Records',
             ),
