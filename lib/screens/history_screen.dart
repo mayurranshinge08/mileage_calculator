@@ -151,6 +151,7 @@ class _HistoryScreenState extends State<HistoryScreen> {
         itemBuilder: (context, index) {
           final record = _records[index];
           return Card(
+            color: Colors.pink.shade50,
             margin: const EdgeInsets.symmetric(vertical: 4.0, horizontal: 8.0),
             child: ListTile(
               leading: CircleAvatar(
